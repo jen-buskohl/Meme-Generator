@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="meme.css">
+  <title>Meme Generator!</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <form id="form">
+        <h1>Meme Generator</h1>
+        <h4>Fill out the form to create memes!</h4>
+        <input type="text" placeholder="Image URL" name="urlInput">
+        <input type="text" placeholder="Text On Top" name="topText">
+        <input type="text" placeholder="Text On Bottom" name="bottomText">
+        <button type="submit" id="button">Create Your Memes!</button>
+      </form>
+    </div>
+    <div id="results">
+      <div class="finalmeme">
+        <img src="https://cdn.shopify.com/s/files/1/0311/4565/6460/products/warm-and-wooly-boston-terrier-beanie-grey_600x600.jpg?v=1666879557" alt="example meme">
+        <div class="wordcontainer">
+          <p class="topexample">Example</p>
+          <p class="bottomexample">Example</p>
+        </div>
+        <div class="overlay">
+          <div class="overlaytext">Click to Delete</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="meme.js"></script>
+</body>
+</html>
